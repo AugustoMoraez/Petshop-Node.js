@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Site de petshop, feito com node, mustache e typescript",
   "main": "index.js",
+ 
   "scripts": {
+    "start":"node dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx nodemon -e ts,mustache,json src/server.ts"
   },
